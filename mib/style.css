@@ -1,0 +1,193 @@
+div.header
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-color:#9FFFF8;
+    width:100%;
+    height:25%;
+    
+}
+
+div.navigation
+{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    height:75%;
+    background-color:#A8A8A8;
+    width:15%;
+}
+
+div.content
+{
+    position:absolute;
+    top:25%;
+    left:15%;
+    width:85%;
+    height:75%;
+    overflow:scroll;
+}
+
+.black_overlay
+{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    opacity:.70;
+    filter: alpha(opacity=70);
+}
+
+.white_content 
+{
+    display: none;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 50%;
+    height: 70%;
+    padding: 16px;
+    border-radius:8px;
+    background-color: white;
+    z-index:1002;
+    overflow: auto;
+}
+
+#writenote
+{
+    background-color:lightgrey;
+    display:inline-block;
+    cursor:pointer;
+    padding:5px;
+    margin:5px;
+    border-radius:15px;
+}
+
+#writenote:hover
+{
+    background-color:grey;
+}
+
+table.write_note tr td
+{
+    padding-bottom: 10px;
+}
+
+div.note
+{
+    position:relative;
+    float:left;
+    display:block;
+    width:15%;
+    margin-left:50px;
+    margin-bottom:20px;
+    padding:10px;
+    border:solid 3px black;
+}
+
+span.tide_button
+{
+    display:block;
+    font-size:160%;
+    padding:7px;
+    margin:10px;
+    margin-bottom:10px;
+    border-bottom:solid 2px lightgrey;
+    cursor:pointer;
+}
+
+.note
+{
+    z-index:2;
+    position:relative;
+    background-image: url("note.svg");
+    height:23em;
+    width: 25em;
+    display:inline-block;
+}
+
+.notetxt
+{
+    margin-left:8em;
+    margin-top:6em;
+    font-size:12px;
+    word-wrap:break-word;
+    padding-right: 5em;
+}
+
+#logo
+{
+    font-family: Helvetica, sans-serif;
+    font-size: 500%;
+    padding-left:5%;
+    text-align: left;
+    color:navy;
+}
+
+.navigation h2
+{
+    font-family: Helvetica;
+    color:white;
+    font-size: 300%;
+    margin-top:0%;
+    margin-bottom:0%;
+    text-decoration: underline;
+    padding-left: 2.5%;
+    padding-bottom: 1%;
+}
+
+.tide_button
+{
+    background-color: #FF0000;
+    padding:5%;
+    width:80%;
+    color: white;
+    font-size:150%;
+    font-family: Helvetica;
+}
+
+
+.tide_button:hover
+{
+    width:105%;
+    cursor:pointer;
+}
+.tide_button:active
+{
+    width:80%;
+}
+.tide_button:focus
+{
+    width:105%;
+}
+
+#general
+{
+    background-color:#36C906;
+}
+
+#personal{
+	background-color:#47DDC0;
+}
+
+#business{
+	background-color: #F4DC2C;
+}
+
+#travel{
+	background-color: #F22F58;
+}
+
+#scavenger{
+	background-color: #308FEF;
+}
+
+#event{
+	background-color: #D546E0;
+}
+
